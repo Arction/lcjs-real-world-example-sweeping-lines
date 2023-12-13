@@ -28,6 +28,9 @@ ws.addEventListener("open", (e) => {
 const lc = lightningChart({
   // Get license at https://lightningchart.com/js-charts
   license: undefined,
+  sharedContextOptions: {
+    useIndividualCanvas: false,
+  },
 });
 const dashboardDiv = document.getElementsByClassName("dashboard")[0];
 const theme = { ...Themes.darkGold, effect: undefined };
