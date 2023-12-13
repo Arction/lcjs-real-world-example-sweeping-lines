@@ -15,4 +15,5 @@ npm start
 
 By default, this will show 24 independently positioned sweeping line charts with 10 second time view and 1000 Hz data rate per channel.
 
-![Screenshot](screenshot.png)
+![image](https://github.com/Arction/lcjs-real-world-example-sweeping-lines/assets/55391673/d379e329-8821-4aa5-bb3e-86d12c820505)
+
