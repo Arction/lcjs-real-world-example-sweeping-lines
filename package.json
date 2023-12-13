@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "concurrently \"cd frontend && live-server --port=8080\" \"cd backend && nodemon index.js\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "live-server": "^1.2.2",
+    "nodemon": "^3.0.2",
+    "ws": "^8.14.2"
+  },
+  "type": "module"
+}
