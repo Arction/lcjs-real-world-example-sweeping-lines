@@ -12,3 +12,7 @@ run locally with commands:
 npm i
 npm start
 ```
+
+By default, this will show 24 independently positioned sweeping line charts with 10 second time view and 1000 Hz data rate per channel.
+
+![Screenshot](screenshot.png)
